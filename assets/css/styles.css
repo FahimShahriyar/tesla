@@ -1,0 +1,143 @@
+body {
+  background: rgb(0,0,0);
+  color: rgb(255,255,255);
+}
+
+#hero {
+  width: 100%;
+  height: 100vh;
+  background: url("../../assets/img/hero-mobile.jpg") center / cover no-repeat;
+}
+
+@media (min-width: 768px) {
+  #hero {
+    background: url("../../assets/img/hero.jpg") center / cover no-repeat;
+  }
+}
+
+.navbar-light .navbar-brand {
+}
+
+#navcol-1 {
+  font-size: 13px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #222;
+}
+
+#title {
+  font-family: Montserrat, sans-serif;
+  font-weight: 300;
+}
+
+#subtitle {
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+}
+
+#p-top {
+  font-size: 26px;
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+}
+
+#p-bottom {
+  font-size: 13px;
+}
+
+#p-bottom {
+  margin: 0px;
+}
+
+#p-top {
+  margin: 0px;
+}
+
+#reserve-btn {
+  border: 3px solid #fff;
+  border-radius: 38px;
+}
+
+.btn.btn-link.btn-block.arrow-btn {
+  color: #ffffff;
+}
+
+.icon.ion-ios-arrow-down {
+  font-size: 20px;
+}
+
+#hero-bottom .container {
+  max-width: 700px;
+  text-align: center;
+}
+
+#hero-bottom {
+  color: #ffffff;
+  margin-bottom: 50px;
+}
+
+#border-col {
+  border-width: 1px;
+  border-style: solid;
+  border-top: 0px;
+  border-bottom: 0px;
+}
+
+#hero-bottom .container .row .col-8 p {
+  color: rgba(255,255,255,0.76);
+  text-align: center;
+}
+
+#video-and-stats {
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  #video-and-stats iframe {
+    width: 900px;
+    height: 500px;
+  }
+}
+
+#hero-top {
+  color: black;
+}
+
+#stats {
+  color: white;
+  width: 600px;
+  margin: auto;
+  margin-bottom: 64px;
+}
+
+@media (max-width: 600px) {
+  #stats {
+    color: white;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 64px;
+  }
+}
+
+#stats.table thead th {
+  text-align: left;
+  padding-left: 0px;
+  border: 0px;
+}
+
+#stats tbody tr #cell-left {
+  text-align: left;
+  padding-left: 0px;
+}
+
+#stats tbody tr #cell-right {
+  text-align: right;
+  font-weight: bold;
+  padding-left: 12px;
+  padding-right: 0px;
+}
+
